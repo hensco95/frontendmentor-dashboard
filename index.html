@@ -47,33 +47,83 @@
 </head>
 
 <body class="dark:bg-vDarkBlueBg dark:text-whiteText text-lVeryDarkBlueText bg-whiteBg">
-  <header class="dark:bg-vDarkBlueTopBgPattern bg-lvPaleBlueTopBgPattern">
-    <div>
-      <div class="flex flex-col text-left">
-        <h1>Social Media Dashboard</h1>
-        <p class="text-red dark:bg-green">
+  <!-- header -->
+  <header class="dark:bg-vDarkBlueTopBgPattern bg-lvPaleBlueTopBgPattern rounded-b-3xl pt-10 pb-24">
+    <section class="flex flex-col md:flex-row items-center justify-between w-10/12 max-w-7xl mx-auto">
+      <div
+        class="w-full flex flex-col border-b-2 md:border-b-0 border-black dark:border-white border-opacity-5 dark:border-opacity-5 pb-3 md:pb-0 md:w-4/5 mx-auto">
+        <h1 class="text-2xl font-bold">Social Media Dashboard</h1>
+        <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">
           Total Followers: 23,004
         </p>
       </div>
-      <div class="flex flex-row items-center space-x-2">
-        <p>Dark Mode</p>
+
+      <!-- toggle button -->
+      <div
+        class="w-full flex flex-row items-center justify-between md:space-x-2 pt-3 md:w-1/5 mx-auto md:justify-end">
+        <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Dark Mode</p>
         <label class="relative w-9 h-4 inline-block">
           <input type="checkbox" class="input opacity-0 w-0 h-0">
           <span
             class="slider round absolute cursor-pointer top-0 left-0 right-0 bottom-0 dark:bg-gradient-to-r from-darkbtnToggleOne to-darkbtnToggleTwo bg-lightBtnToggle before:bg-whiteBg dark:before:bg-darkDesaturatedBlueCardBg hover:bg-gradient-to-r hover:from-darkbtnToggleOne hover:to-darkbtnToggleTwo"></span>
         </label>
       </div>
-    </div>
+    </section>
   </header>
 
+  <!-- main -->
+  <main class="w-10/12 max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 w-full gap-3 lg:gap-y-0">
+      
+      
+
+      <div class="item bg-red-400">
+        <p>
+          <span><img src="/images/icon-facebook.svg" alt=""></span>
+          @nathanf
+        </p>
+        <h2>1987</h2>
+        <h3>Followers</h3>
+        <h3>12 Today</h3>
+      </div>
+
+      <div class="item bg-red-400">
+        <p>
+          <span><img src="/images/icon-facebook.svg" alt=""></span>
+          @nathanf
+        </p>
+        <h2>1987</h2>
+        <h3>Followers</h3>
+        <h3>12 Today</h3>
+      </div>
+
+      <div class="item bg-red-400">
+        <p>
+          <span><img src="/images/icon-facebook.svg" alt=""></span>
+          @nathanf
+        </p>
+        <h2>1987</h2>
+        <h3>Followers</h3>
+        <h3>12 Today</h3>
+      </div>
+
+      <div class="item bg-red-400">
+        <p>
+          <span><img src="/images/icon-facebook.svg" alt=""></span>
+          @nathanf
+        </p>
+        <h2>1987</h2>
+        <h3>Followers</h3>
+        <h3>12 Today</h3>
+      </div>
+      
+    </div>
+  </main>
 
 
 
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+
 
   @nathanf
   1044

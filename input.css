@@ -6,8 +6,14 @@
   body {
     @apply font-sans text-sm;
   }
+  h2 {
+    @apply font-bold text-4xl text-lVeryDarkBlueText dark:bg-whiteText;
+  }
 }
 
+.item {
+  @apply bg-lightGrayishBlue dark:bg-darkDesaturatedBlueCardBg;
+}
 
 .slider {
   -webkit-transition: 0.4s;
