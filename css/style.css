@@ -549,3 +549,206 @@ body {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.bg-lightBtnToggle {
+  --tw-bg-opacity: 1;
+  background-color: hsl(230 22% 74% / var(--tw-bg-opacity));
+}
+
+.bg-lvPaleBlueTopBgPattern {
+  --tw-bg-opacity: 1;
+  background-color: hsl(225 100% 98% / var(--tw-bg-opacity));
+}
+
+.bg-whiteBg {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.from-darkbtnToggleOne {
+  --tw-gradient-from: hsl(210, 78%, 56%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(210 78% 56% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-darkbtnToggleTwo {
+  --tw-gradient-to: hsl(146, 68%, 55%) var(--tw-gradient-to-position);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-lVeryDarkBlueText {
+  --tw-text-opacity: 1;
+  color: hsl(230 17% 14% / var(--tw-text-opacity));
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.slider {
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  right: 2px;
+  bottom: 2px;
+  transition: 0.4s;
+}
+
+/* input:focus + .slider {
+  box-shadow: 0 0 1px red;
+} */
+
+input:checked + .slider:before {
+  transform: translateX(-20px);
+}
+
+.slider.round {
+  border-radius: 40px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.before\:bg-whiteBg::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gradient-to-r:hover {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.hover\:from-darkbtnToggleOne:hover {
+  --tw-gradient-from: hsl(210, 78%, 56%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(210 78% 56% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.hover\:to-darkbtnToggleTwo:hover {
+  --tw-gradient-to: hsl(146, 68%, 55%) var(--tw-gradient-to-position);
+}
+
+:is(.dark .dark\:bg-vDarkBlueBg) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(230 17% 14% / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-vDarkBlueTopBgPattern) {
+  --tw-bg-opacity: 1;
+  background-color: hsl(232 19% 15% / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-gradient-to-r) {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+:is(.dark .dark\:text-whiteText) {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:before\:bg-darkDesaturatedBlueCardBg)::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(228 28% 20% / var(--tw-bg-opacity));
+}

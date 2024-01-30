@@ -19,6 +19,8 @@ module.exports = {
         darkDesaturatedBlueCardBg: "hsl(228, 28%, 20%)",
         desaturatedBlueText: "hsl(228, 34%, 66%)",
         whiteText: "hsl(0, 0%, 100%)",
+        darkbtnToggleOne: "hsl(210, 78%, 56%)",
+        darkbtnToggleTwo: "hsl(146, 68%, 55%)",
 
         // light theme
         whiteBg: "hsl(0, 0%, 100%)",
@@ -26,6 +28,7 @@ module.exports = {
         lightGrayishBlue: "hsl(227, 47%, 96%)",
         lDarkGrayishBlueText: "hsl(228, 12%, 44%)",
         lVeryDarkBlueText: "hsl(230, 17%, 14%)",
+        lightBtnToggle: "hsl(230, 22%, 74%)",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
