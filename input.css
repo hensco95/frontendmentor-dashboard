@@ -12,7 +12,11 @@
 }
 
 .item {
-  @apply bg-lightGrayishBlue dark:bg-darkDesaturatedBlueCardBg flex flex-col text-center space-y-6 py-6 rounded-b-md w-full h-full;
+  @apply bg-lightGrayishBlue dark:bg-darkDesaturatedBlueCardBg flex flex-col place-content-center text-center space-y-6 py-5 rounded-lg border-t-4;
+}
+
+.sm_item {
+  @apply bg-lightGrayishBlue dark:bg-darkDesaturatedBlueCardBg flex flex-col space-y-6 py-5 px-8 rounded-lg;
 }
 
 .slider {
@@ -31,9 +35,6 @@
   transition: 0.4s;
 }
 
-/* input:focus + .slider {
-  box-shadow: 0 0 1px red;
-} */
 
 input:checked + .slider:before {
   -webkit-transform: translateX(-20px);

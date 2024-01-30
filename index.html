@@ -34,15 +34,7 @@
   </script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
   </style>
 </head>
 
@@ -72,7 +64,8 @@
 
   <!-- main -->
   <main class="relative w-10/12 max-w-7xl mx-auto">
-    <div class="relative -top-16 grid md:grid-cols-2 lg:grid-cols-4 w-full gap-6 lg:gap-y-0">
+    <!-- top section -->
+    <section class="relative -top-16 grid md:grid-cols-2 lg:grid-cols-4 w-full gap-6">
 
 
       <!-- facebook -->
@@ -92,116 +85,241 @@
         </h3>
       </div>
 
-      <div class="bg-twitter rounded-lg pt-[5px]">
-        <!-- twitter -->
-        <div class="item">
-          <p class="flex flex-row mx-auto space-x-2">
-            <img src="/images/icon-twitter.svg" alt="">
-            <span class="text-desaturatedBlueText dark:text-desaturatedBlueText font-bold">@nathanf</span>
-          </p>
-          <h2>
-            1044
-            <span
-              class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-normal tracking-widest uppercase">Followers</span>
-          </h2>
-          <h3 class="text-limeGreen flex flex-row items-center mx-auto font-bold space-x-2">
-            <img src="/images/icon-up.svg" alt="">
-            <span>99 Today</span>
-          </h3>
-        </div>
+
+      <!-- twitter -->
+      <div class="item border-twitter">
+        <p class="flex flex-row mx-auto space-x-2">
+          <img src="/images/icon-twitter.svg" alt="">
+          <span class="text-desaturatedBlueText dark:text-desaturatedBlueText font-bold">@nathanf</span>
+        </p>
+        <h2>
+          1044
+          <span
+            class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-normal tracking-widest uppercase">Followers</span>
+        </h2>
+        <h3 class="text-limeGreen flex flex-row items-center mx-auto font-bold space-x-2">
+          <img src="/images/icon-up.svg" alt="">
+          <span>99 Today</span>
+        </h3>
       </div>
-      
 
 
       <!-- instagram -->
-      <div class="bg-gradient-to-r from-igGradient1 to-igGradient2 rounded-lg pt-[5px]">
-        <div class="item">
-          <p class="flex flex-row mx-auto space-x-2">
-            <img src="/images/icon-twitter.svg" alt="">
-            <span class="text-desaturatedBlueText dark:text-desaturatedBlueText font-bold">@nathanf</span>
-          </p>
-          <h2>
-            1044
-            <span
-              class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-normal tracking-widest uppercase">Followers</span>
-          </h2>
-          <h3 class="text-limeGreen flex flex-row items-center mx-auto font-bold space-x-2">
-            <img src="/images/icon-up.svg" alt="">
-            <span>99 Today</span>
-          </h3>
-        </div>
-        
+      <div class="item border-igGradient2">
+        <p class="flex flex-row mx-auto space-x-2">
+          <img src="/images/icon-instagram.svg" alt="">
+          <span class="text-desaturatedBlueText dark:text-desaturatedBlueText font-bold">@realnathanf</span>
+        </p>
+        <h2>
+          11k
+          <span
+            class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-normal tracking-widest uppercase">Followers</span>
+        </h2>
+        <h3 class="text-limeGreen flex flex-row items-center mx-auto font-bold space-x-2">
+          <img src="/images/icon-up.svg" alt="">
+          <span>1099 Today</span>
+        </h3>
       </div>
 
-      
+      <!-- instagram -->
+      <div class="item border-youTube">
+        <p class="flex flex-row mx-auto space-x-2">
+          <img src="/images/icon-youtube.svg" alt="">
+          <span class="text-desaturatedBlueText dark:text-desaturatedBlueText font-bold">
+            Nathan F.
+          </span>
+        </p>
+        <h2>
+          8239
+          <span
+            class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-normal tracking-widest uppercase">Subscribers</span>
+        </h2>
+        <h3 class="text-brightRed flex flex-row items-center mx-auto font-bold space-x-2">
+          <img src="/images/icon-down.svg" alt="">
+          <span>144 Today</span>
+        </h3>
+      </div>
 
-      
 
-    
 
-    </div>
+
+
+
+
+    </section>
+
+    <!-- small section -->
+    <section>
+      <h2 class="dark:text-whiteText text-lDarkGrayishBlueText text-xl mb-8">
+        Overview - Today
+      </h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 w-full gap-6">
+        <!-- sm fb -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Page Views</p>
+            <img src="/images/icon-facebook.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">83</h3>
+            <h3 class="text-limeGreen flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-up.svg" alt="">
+              <span>3%</span>
+            </h3>
+          </div>
+
+        </div>
+
+
+        <!-- likes fb -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Likes</p>
+            <img src="/images/icon-facebook.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">
+              52
+            </h3>
+            <h3 class="text-brightRed flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-down.svg" alt="">
+              <span>2%</span>
+            </h3>
+          </div>
+
+        </div>
+
+        <!-- likes IG -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Likes</p>
+            <img src="/images/icon-instagram.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">
+              5462
+            </h3>
+            <h3 class="text-limeGreen flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-up.svg" alt="">
+              <span>2257%</span>
+            </h3>
+          </div>
+
+        </div>
+
+        <!-- views IG -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Profile Views</p>
+            <img src="/images/icon-instagram.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">
+              52k
+            </h3>
+            <h3 class="text-limeGreen flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-up.svg" alt="">
+              <span>1375%</span>
+            </h3>
+          </div>
+
+        </div>
+
+        <!-- Retweets Twitter -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Retweets</p>
+            <img src="/images/icon-twitter.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">
+              117
+            </h3>
+            <h3 class="text-limeGreen flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-up.svg" alt="">
+              <span>303%</span>
+            </h3>
+          </div>
+
+        </div>
+
+
+        <!-- Likes Twitter -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Likes</p>
+            <img src="/images/icon-twitter.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">
+              507
+            </h3>
+            <h3 class="text-limeGreen flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-up.svg" alt="">
+              <span>553%</span>
+            </h3>
+          </div>
+
+        </div>
+
+        <!-- Likes YouTube -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Likes</p>
+            <img src="/images/icon-youtube.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">
+              107
+            </h3>
+            <h3 class="text-brightRed flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-down.svg" alt="">
+              <span>19%</span>
+            </h3>
+          </div>
+
+        </div>
+
+        <!-- Total Views YouTube -->
+        <div class="sm_item">
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-lDarkGrayishBlueText dark:text-desaturatedBlueText text-sm font-bold">Total Views</p>
+            <img src="/images/icon-youtube.svg" alt="">
+          </div>
+
+          <div class="flex flex-row items-end justify-between">
+            <h3 class="font-bold text-3xl text-lVeryDarkBlueText dark:text-whiteText">
+              1407
+            </h3>
+            <h3 class="text-brightRed flex flex-row items-center font-bold space-x-2">
+              <img src="/images/icon-down.svg" alt="">
+              <span>12%</span>
+            </h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
   </main>
 
+  <footer class="py-5 w-10/12 max-w-7xl mx-auto">
+    <div class="text-center text-lDarkGrayishBlueText dark:text-desaturatedBlueText">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        class="dark:text-whiteText decoration-double dark:hover:text-igGradient2 text-twitter hover:text-black">Frontend
+        Mentor</a>.
+      Coded by <a href="https://github.com/hensco95"
+        class="dark:text-whiteText decoration-double dark:hover:text-igGradient2 text-twitter hover:text-black"
+        target="_blank">Henry Seigbein</a>.
+    </div>
+  </footer>
 
-
-
-
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 
   <script src="/app.js"></script>
 </body>
