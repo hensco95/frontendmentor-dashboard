@@ -7,12 +7,12 @@
     @apply font-sans text-sm;
   }
   h2 {
-    @apply font-bold text-4xl text-lVeryDarkBlueText dark:bg-whiteText;
+    @apply font-bold text-5xl text-lVeryDarkBlueText dark:text-whiteText flex flex-col;
   }
 }
 
 .item {
-  @apply bg-lightGrayishBlue dark:bg-darkDesaturatedBlueCardBg;
+  @apply bg-lightGrayishBlue dark:bg-darkDesaturatedBlueCardBg flex flex-col text-center space-y-6 py-6 rounded-b-md w-full h-full;
 }
 
 .slider {
